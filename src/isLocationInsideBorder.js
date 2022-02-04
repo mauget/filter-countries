@@ -1,6 +1,4 @@
 const pointInPolygon = require("point-in-polygon");
 
-function isLocationInsideBorder(loc, pologon){
-    return pointInPolygon( [loc.lat, loc.lon], pologon);
-}
+const isLocationInsideBorder = (loc, polygon) => pointInPolygon([loc.lat, loc.lon], polygon);
 module.exports = isLocationInsideBorder;

@@ -12,7 +12,13 @@
       maxY: 35.8
 - name: Nebraska
   limits:
-      minX: -99.03
-      maxX: -100.05
-      minY: 39.04
-      maxY: 39.06
+    minX: -99.03
+    maxX: -100.05
+    minY: 39.04
+    maxY: 39.06
+- name: Lower Slobovia
+  limits:
+    minX: 99.03
+    maxX: 100.05
+    minY: -39.04
+    maxY: -39.06
