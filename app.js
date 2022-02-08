@@ -25,13 +25,13 @@ const locations = [
     const countriesWithBorders = computeBorderPolygons(countriesWithCorners);
 
     // Collect names of countries intersected by one or more locations
-    hits = new Set((locations.map((location) =>
+    hits = new Set(locations.map((location) =>
         countriesWithBorders.filter((country) =>
             isLocationInsideBorder(location, country.border)
         )
-    ))
+    )
         .filter((item) => item?.length > 0)
-        .map((item) => item[0].name)).entries();
+        .map((item) => item[0].name));
 
     console.log('Hit country names:', hits);
 })();

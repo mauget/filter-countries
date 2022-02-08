@@ -40,10 +40,6 @@ All country names:
 "Nebraska"
 "Lower Slobovia"
 
-Hit country names: [Set Entries] {
-  [ 'Nevada', 'Nevada' ],
-  [ 'North Carolina', 'North Carolina' ],
-  [ 'Nebraska', 'Nebraska' ]
-}
+Hit country names: Set(3) { 'Nevada', 'North Carolina', 'Nebraska' }
 ```
 
